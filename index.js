@@ -1,4 +1,4 @@
-import * as contactsService from "./contacts.js";
+import * as contactsService from "./src/contacts.js";
 import { program } from "commander";
 program
   .option("-a, --action <type>", "choose action")
